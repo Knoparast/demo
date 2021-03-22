@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoApplication {
 
-  @Value("${NAME:DEMO}")
+  @Value("${NAME:DEMO Project}")
   String name;
 
   @RestController
