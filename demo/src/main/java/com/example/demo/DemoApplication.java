@@ -18,7 +18,7 @@ public class DemoApplication {
   class DemoController {
     @GetMapping("/")
     String hello() {
-      return "This is a " + name + "!";
+      return "This is a " + name + "!!!!";
     }
   }
 
